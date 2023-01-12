@@ -19,7 +19,9 @@ function App() {
       <p> In this exmaple, we are using the filterSlice to set up a place to hold the filter state, which is simply whatever you type into the searchbar input. We are also setting up and storing a very simple action/method, setFilter. These two things can now be passed around to any component and will work anywhere on the App. </p>
       <p> we pass the filter state to the Filter component that so it can read what's in its own searchbar, as well as the setFilter method in order to change the state of the filter</p>
          <p> In the Products component we can use filter and setFilter to help search through the products without having to pass down any state with props.</p>
+         <p>* at the root of your application, in index.js, make sure to wrap your app in Provider and import the store!</p>
          <h6>And thats some simple and easy Redux!</h6>
+
         
           
 
